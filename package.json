@@ -1,0 +1,40 @@
+{
+  "name": "nodebird-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doyage/nodebird-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doyage/nodebird-api/issues"
+  },
+  "homepage": "https://github.com/Doyage/nodebird-api#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "bcrypt": "^3.0.4",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.1",
+    "passport": "^0.4.0",
+    "passport-kakao": "0.0.5",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.1",
+    "sequelize": "^4.31.2",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
